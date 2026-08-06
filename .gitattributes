@@ -1,0 +1,11 @@
+# Exclude build artifacts
+src/*.astro linguist-detectable
+*.map linguist-generated   
+*.bat text eol=crlf
+
+public/index.html linguist-vendored
+*.json linguist-detectable=false
+*.html linguist-vendored
+* text=auto
+src/**/*.astro linguist-detectable
+# eof ad738c14
